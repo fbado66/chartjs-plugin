@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src='chart-js-component.js'></script>
+    <link rel='stylesheet' href='style.css'>
+    <title>Chart JS</title>
+</head>
+<body>
+
+    <h1>Chart JS</h1>
+
+    <script>
+        let url = 'https://fivethirtyeight.datasettes.com/fivethirtyeight/airline-safety%2Fairline-safety.json?_shape=array'
+    </script>
+
+<!-- Building the table structure -->
+
+    <table class = 'table'>
+        <thead>
+            <tr class='main_headers'>
+                <!-- <th>headers</th> -->
+            </tr>
+        </thead>
+        <tbody class='table_body'>
+            <!-- <tr>
+                <td>content</td> 
+            </tr> -->
+        </tbody>
+    </table>
+
+    <button id="bar">Display Bar Graph </button>
+    <button id="line"> Display line Graph </button>
+    <button id="scatter"> Display Scatter Graph </button>
+        <canvas id='canvas'></canvas>
+    
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+
+
+</html>
