@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    line-height: 20px;
+}
+
+btn {
+    background: green;
+    border-radius: 5px;
+    padding: 5px 20px;
+    z-index: 999;
+    position: relative;
+    top: -20px;
+    margin: 0 2px;
+    color: #ffffff
+}
+
+.table { 
+    border: .5px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+p {
+    display: block
+}
+
+.mean {
+    padding: 20px;  
+}
+
+.median {
+    padding: 30px;  
+}

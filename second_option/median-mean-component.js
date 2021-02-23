@@ -31,21 +31,21 @@ fetch(url)
 
             if (header === 'rowid'|| header === 'Appearances' || header === 'Year' || header === 'Years since joining') {
             
-                let medianMean = document.createElement('div')
-                    medianMean.className = 'median_mean'
-                    headers.append(medianMean)
+                // let medianMean = document.createElement('div')
+                //     medianMean.className = 'median_mean'
+                //     headers.append(medianMean)
 
             
                 let median = document.createElement('btn')
                     median.className = header
                     median.innerHTML = 'Median'
-                    medianMean.append(median)
+                    headers.append(median)
 
             
                 let mean = document.createElement('btn')
                     mean.id = header
                     mean.innerHTML = 'Mean'
-                    medianMean.append(mean)
+                    headers.append(mean)
                 
             }
 
