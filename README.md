@@ -7,13 +7,13 @@ I decided to tackle this assessment by trying to create a framework-agnostic Jav
 ## Chart-js-component
 
 For the first part of this assessment you can find the code in the folder <strong> first_option </strong> 
-<br><br>
+<br>
 
 This file shows how to manipulate Chart js by attempting to create a Javascript plugin
 
 ### Getting Started
-Get started by downloading the content of this repo. There are two main files of concert. <strong> chart-js-component.js </strong> and <strong> index.html </strong>
-Link the js file, and have the boiler plate from the html file for this to work. 
+- Get started by downloading the content of this repo. There are two main files of concert. <strong> chart-js-component.js </strong> and <strong> index.html </strong>
+- Link the js file, and have the boiler plate from the html file for this to work. 
 <br>
 You will see in the index.html file, a script space for the assignation of the url
 
@@ -35,16 +35,15 @@ As in right now I am able to render the information on a table, and able to grap
 <br>
 <img src='images/scatter.png'>
 
-<br><br><br>
-
+<br><br>
 ## Core Functionality Mean Median
 
 For the second part of this assessment you can find the code in the folder <strong> second_option </strong> 
-<br><br>
+<br>
 
 ### Getting Started
-Get started by downloading the content of this repo. There are two main files of concert. <strong> median-mean-component.js </strong> and <strong> main.html </strong>
-Link the js file, and have the boiler plate from the html file for this to work. 
+- Get started by downloading the content of this repo. There are two main files of concert. <strong> median-mean-component.js </strong> and <strong> main.html </strong>
+- Link the js file, and have the boiler plate from the html file for this to work. 
 <br>
 You will see in the main.html file, a script space for the assignation of the url
 
@@ -54,13 +53,13 @@ The plugin works by creating a table to display the information, and creating th
 ### Dcoumentation / comments 
 
 - I have left many comments along the code to explain the steps taken on each aspect of the process<br>
-- Again, just as with the first option, I wanted to make it functions and helper mainly dinamically with the use of loops, and calling on things by the index and with loops, to avoid the use of static variables. However this was hard, and I did had to use some static variables. 
-- There are no validations regarding the data collected from the url, but the ideas on how to go about each function are explain in great detail.
+- Again, just as with the first option, I wanted to make functions and helpers mainly dinamically with the use of loops, and calling on things by the index and keys / values, to avoid the use of static variables. However this was hard, and I did had to use some static variables. 
+- There are no validations for the data collected from the url, but the ideas on how to go about each function are explain in great detail.
 - I used my way of interpretation to collect the values only for the mean, and the median.
 - Such values are displayed at top of the table just as shown below. 
 - At the moment I attempted to work on the close button function, to hide or remove the information once the button is clicked, but I couldn't get it to work with the amount of time provided. 
-- I impleted the <strong>mean</strong> and <strong>median</strong> on the columns with int values only.
 - I would have been able to do such thing, but using static variables, and it is my undestanding that I needed to restrain myself from going that route.
+- I implemented the <strong>mean</strong> and <strong>median</strong> on the columns with int values only.
 <br><br>
 
 <img src='images/table-mm.png'>
